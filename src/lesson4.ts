@@ -107,3 +107,16 @@ No caso anterior, o TypeScript só vai alterar para "toUpperCase" (Letra maiuscu
 */
 
 console.log(greetGuitarist(jp))
+
+// Enums
+// Algo adicionado na linguagem durante o tempo de execução
+
+enum Grade {
+    U = 1,
+    D,
+    C,
+    B,
+    A,
+}
+
+console.log(Grade.U)
